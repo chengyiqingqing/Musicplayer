@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MusicTextApplication.iml" filepath="$PROJECT_DIR$/MusicTextApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clockapplication/clockapplication.iml" filepath="$PROJECT_DIR$/clockapplication/clockapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/remoteController/remoteController.iml" filepath="$PROJECT_DIR$/remoteController/remoteController.iml" />
+    </modules>
+  </component>
+</project>

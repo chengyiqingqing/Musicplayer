@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.amber.musictestapplication.MainActivity">
+    <com.example.amber.musictestapplication.MusicName
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text="你好，世界"
+        android:layout_marginBottom="30dp"/>
+
+<!--    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <com.example.amber.musictestapplication.MusicPreviousControllerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pre"
+            />
+        <com.example.amber.musictestapplication.MusicPlayControllerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:music_playImage="@drawable/play_view"
+            app:music_pauseImage="@drawable/pause_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <com.example.amber.musictestapplication.MusicNextControllerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:layout_marginRight="10dp"
+            />
+        <com.example.amber.musictestapplication.MusicStopControllerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/music_stop_view"
+            />
+
+    </LinearLayout>-->
+    <com.example.amber.musictestapplication.MusicNameShowRelative
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:image_width_setting="60dp"
+        app:image_height_setting="60dp"
+        app:music_Image_default="@drawable/play"
+        app:text_height_setting="80dp"
+        app:text_color_setting="#000"
+        android:background="#00ff00"
+        />
+
+
+
+    <com.example.amber.musictestapplication.MusicControllerView
+        android:id="@+id/music_contro"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:previousImage="@drawable/pre"
+        app:previous_notImage="@drawable/pre_not_image"
+        app:playImage="@drawable/play"
+        app:pauseImage="@drawable/pause"
+        app:nextImage="@drawable/next"
+        app:nextnotImage="@drawable/next_not_image"
+        app:image_width="30dp"
+        app:image_height="30dp"
+        app:margin_left="25dp"
+        app:margin_right="25dp"
+        />
+
+</LinearLayout>

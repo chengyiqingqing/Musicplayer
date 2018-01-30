@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShimmerTextView">
+        <attr name="shimmerColor" format="color"/>
+        <attr name="repeatInterval" format="integer"/>
+        <attr name="time" format="integer"/>
+        <attr name="shimmerWidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchBaseView">
+        <attr name="on_background" format="reference"/>
+        <attr name="off_background" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="VibrateQuietView">
+        <attr name="sound_background" format="reference"/>
+        <attr name="vibrate_background" format="reference"/>
+        <attr name="quiet_background" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MusicControllerView">
+        <attr name="playImage" format="reference"/>
+        <attr name="pauseImage" format="reference"/>
+        <attr name="nextImage" format="reference"/>
+        <attr name="nextnotImage" format="reference"/>
+        <attr name="previousImage" format="reference"/>
+        <attr name="previous_notImage" format="reference"/>
+        <attr name="margin_top" format="dimension"/>
+        <attr name="margin_left" format="dimension"/>
+        <attr name="margin_right" format="dimension"/>
+        <attr name="margin_bottom" format="dimension"/>
+        <attr name="image_width" format="dimension"/>
+        <attr name="image_height" format="dimension"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="MusicPlayControllerView">
+        <attr name="music_playImage" format="reference"/>
+        <attr name="music_pauseImage" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="MusicNameShowRelative">
+        <attr name="music_Image_default" format="reference"/>
+        <attr name="image_margin_top" format="dimension"/>
+        <attr name="image_margin_left" format="dimension"/>
+        <attr name="image_margin_right" format="dimension"/>
+        <attr name="image_margin_bottom" format="dimension"/>
+        <attr name="image_width_setting" format="dimension"/>
+        <attr name="image_height_setting" format="dimension"/>
+
+        <attr name="music_TextView" format="reference"/>
+        <attr name="text_margin_top" format="dimension"/>
+        <attr name="text_margin_left" format="dimension"/>
+        <attr name="text_margin_right" format="dimension"/>
+        <attr name="text_margin_bottom" format="dimension"/>
+        <attr name="text_width_setting" format="dimension"/>
+        <attr name="text_height_setting" format="dimension"/>
+        <attr name="text_size_setting" format="dimension"/>
+        <attr name="text_color_setting" format="color"/>
+    </declare-styleable>
+
+</resources>

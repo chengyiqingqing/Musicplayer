@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+                <com.example.amber.musictestapplication.MusicPreviousControllerView
+                    android:id="@+id/musicPreviousControllerView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    />
+                <com.example.amber.musictestapplication.MusicPlayControllerView
+                    android:id="@+id/musicPlayControllerView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    />
+                <com.example.amber.musictestapplication.MusicNextControllerView
+                    android:id="@+id/musicNextControllerView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+
+                    />
+
+
+
+</merge>

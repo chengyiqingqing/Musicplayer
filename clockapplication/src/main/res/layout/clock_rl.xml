@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--表盘@dimen/clock_width_size-->
+    <RelativeLayout
+        android:layout_width="@dimen/clock_width_size"
+        android:layout_height="@dimen/clock_width_size"
+        >
+
+        <ImageView
+            android:id="@+id/bg_clock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/bg_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:rotation="180"
+            />
+
+        <ImageView
+            android:id="@+id/bg_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:rotation="180"
+             />
+
+        <RelativeLayout
+            android:id="@+id/layout_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/bg_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+</merge>

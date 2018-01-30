@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:3:5-61
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Amber\.android\build-cache\c338fc18ca25accabbf8483206611f7c3cd3ed41\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Amber\.android\build-cache\13c346d34ee0ec09549b9201c9967a6fcd51c9e8\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Amber\.android\build-cache\f5de5e77541322c81df326cffde9991a0de89cf9\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Amber\.android\build-cache\30693f1040252391c9bb2964e8b7f5d4729c25f4\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Amber\.android\build-cache\7dcb170d286304be64a247ab193db7483ce714ad\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Amber\.android\build-cache\ceb5db34dde05b857db5831952ccaf4dd4836260\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Amber\.android\build-cache\acfa16038d628e405d55b43d5743c1bffc6ee530\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Amber\.android\build-cache\4ac7e756a903468304dade6a039977b8df3b7c89\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Amber\.android\build-cache\de57a2e77b4286ef48f21547c6e5481fbf98851a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Amber\.android\build-cache\de7fb144e21d2daeefcd6bd4632e7b6730337178\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Amber\.android\build-cache\c338fc18ca25accabbf8483206611f7c3cd3ed41\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+		INJECTED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml
+application
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:11:5-41:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Amber\.android\build-cache\c338fc18ca25accabbf8483206611f7c3cd3ed41\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Amber\.android\build-cache\13c346d34ee0ec09549b9201c9967a6fcd51c9e8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Amber\.android\build-cache\f5de5e77541322c81df326cffde9991a0de89cf9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Amber\.android\build-cache\30693f1040252391c9bb2964e8b7f5d4729c25f4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Amber\.android\build-cache\7dcb170d286304be64a247ab193db7483ce714ad\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Amber\.android\build-cache\ceb5db34dde05b857db5831952ccaf4dd4836260\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Amber\.android\build-cache\acfa16038d628e405d55b43d5743c1bffc6ee530\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Amber\.android\build-cache\4ac7e756a903468304dade6a039977b8df3b7c89\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Amber\.android\build-cache\de57a2e77b4286ef48f21547c6e5481fbf98851a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Amber\.android\build-cache\de7fb144e21d2daeefcd6bd4632e7b6730337178\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:15:9-40
+activity#com.woodblockwithoutco.remotecontrollerexample.MainActivity
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:16:9-25:20
+	android:label
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:19:13-69
+	android:name
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:17:13-87
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:23:27-74
+activity#com.woodblockwithoutco.remotecontrollerexample.RemoteControlActivity
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:26:9-30:20
+	android:label
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:27:13-96
+service#com.woodblockwithoutco.remotecontrollerexample.RemoteControlService
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:32:9-40:19
+	android:label
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:34:13-49
+	android:permission
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:35:13-87
+	android:name
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:33:13-49
+intent-filter#android.service.notification.NotificationListenerService+com.woodblockwithoutco.remotecontrollerexample.BIND_RC_CONTROL_SERVICE
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:36:13-39:29
+action#android.service.notification.NotificationListenerService
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:37:17-99
+	android:name
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:37:25-96
+action#com.woodblockwithoutco.remotecontrollerexample.BIND_RC_CONTROL_SERVICE
+ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:38:17-113
+	android:name
+		ADDED from F:\task8.23\MusicTextApplication\remoteController\src\main\AndroidManifest.xml:38:25-110
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Amber\.android\build-cache\c338fc18ca25accabbf8483206611f7c3cd3ed41\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Amber\.android\build-cache\13c346d34ee0ec09549b9201c9967a6fcd51c9e8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Amber\.android\build-cache\f5de5e77541322c81df326cffde9991a0de89cf9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Amber\.android\build-cache\30693f1040252391c9bb2964e8b7f5d4729c25f4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Amber\.android\build-cache\7dcb170d286304be64a247ab193db7483ce714ad\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Amber\.android\build-cache\ceb5db34dde05b857db5831952ccaf4dd4836260\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Amber\.android\build-cache\acfa16038d628e405d55b43d5743c1bffc6ee530\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Amber\.android\build-cache\4ac7e756a903468304dade6a039977b8df3b7c89\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Amber\.android\build-cache\de57a2e77b4286ef48f21547c6e5481fbf98851a\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Amber\.android\build-cache\c338fc18ca25accabbf8483206611f7c3cd3ed41\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Amber\.android\build-cache\c338fc18ca25accabbf8483206611f7c3cd3ed41\output\AndroidManifest.xml:26:9-47
